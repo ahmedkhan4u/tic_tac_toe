@@ -6,13 +6,7 @@ import 'package:get/get.dart';
 class HomeScreen extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
-    String _turn = "X";
     var controller = Get.find<HomeController>();
-
-    final _values = ["", "", "", "", "", "", "", "", ""];
-    void clickHandler(index) {
-      controller.clickHandler(index);
-    }
 
     return Scaffold(
       appBar: AppBar(
@@ -22,6 +16,7 @@ class HomeScreen extends StatelessWidget {
             child: Icon(Icons.restart_alt),
             onTap: () {
               controller.resetGame();
+              controller.status.value = 0;
             },
           ),
           SizedBox(
