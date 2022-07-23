@@ -1,16 +1,14 @@
 # tic_tac_toe
 
-A new Flutter project.
+Tic Tac Toe using flutter getx
 
 ## Getting Started
+Tic Tac Toe 
+Develop using flutter getx package
 
-This project is a starting point for a Flutter application.
+https://user-images.githubusercontent.com/53033498/180594751-d469f876-b013-426f-9b69-bb4b4c703682.mp4
 
-A few resources to get you started if this is your first Flutter project:
+Tic Tac Toe Flutter responsive web design
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+![Capture](https://user-images.githubusercontent.com/53033498/180594858-9563fc17-4dde-4921-be93-890be5c10872.PNG)
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
