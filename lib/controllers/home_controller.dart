@@ -1,3 +1,4 @@
+import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 
 class HomeController extends GetxController {
@@ -85,6 +86,7 @@ class HomeController extends GetxController {
         title: "Congrats",
         middleText: "Player $turn Wins",
         textConfirm: "OK",
+        confirmTextColor: Colors.white,
         onConfirm: () => Get.back());
     status.value = 1;
     if (turn == "X") {
