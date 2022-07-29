@@ -17,6 +17,7 @@ class MyApp extends StatelessWidget {
       initialBinding: HomeBinding(),
       initialRoute: Routes.getInitialRoute(),
       getPages: Routes.routes,
+      //
     );
   }
 }
